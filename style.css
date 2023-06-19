@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    overflow: hidden;
+}
+
+
+.container{
+    min-width: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+
+h1{
+    padding: 1rem;
+}
+h2{
+    padding: 0.5rem;
+    opacity: 0.5;
+}
+#time{
+    font-size: 8rem;
+}
+@media (max-width: 700px) {
+    #time{
+        font-size: 5rem;
+    }
+    
+}
